@@ -1,0 +1,15 @@
+from peltier_thermoelectric_cooler import PeltierThermoelectricCooler
+import numpy as np
+
+def test_peltierthermoelectriccooler_response():
+    engine = PeltierThermoelectricCooler(nominal_scale=2.0, channels=4)
+    sig = np.array([0.5, 1.0, -0.5, -1.0])
+    resp = engine.compute_response(sig)
+    assert len(resp) == 4
+    assert np.all(np.isfinite(resp))
+    assert engine.energy_metric() > 0.0
+
+def test_peltierthermoelectriccooler_step():
+    engine = PeltierThermoelectricCooler(nominal_scale=1.5, channels=3)
+    val = engine.step_simulation(dt=0.05)
+    assert np.isfinite(val)

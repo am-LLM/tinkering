@@ -1,0 +1,15 @@
+from two_phase_chilldown_pipe import TwoPhaseChilldownPipe
+import numpy as np
+
+def test_twophasechilldownpipe_response():
+    engine = TwoPhaseChilldownPipe(nominal_scale=2.0, channels=4)
+    sig = np.array([0.5, 1.0, -0.5, -1.0])
+    resp = engine.compute_response(sig)
+    assert len(resp) == 4
+    assert np.all(np.isfinite(resp))
+    assert engine.energy_metric() > 0.0
+
+def test_twophasechilldownpipe_step():
+    engine = TwoPhaseChilldownPipe(nominal_scale=1.5, channels=3)
+    val = engine.step_simulation(dt=0.05)
+    assert np.isfinite(val)

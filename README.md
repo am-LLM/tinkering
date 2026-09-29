@@ -20,15 +20,16 @@ Most real-world engineering failures occur at the boundaries between disciplines
 
 ```text
 .
-├── frontier_hybrids/          # 65 Cross-domain Frankenstein engines (Biomimetic, Quantum, GNC, PQC)
-│   ├── engine_01...engine_65  # Standalone numerical physics & control implementations
+├── frontier_hybrids/          # 66 Cross-domain Frankenstein engines (Biomimetic, Quantum, GNC, PQC, Cyber)
+│   ├── engine_01...engine_66  # Standalone numerical physics, cyber defense & control implementations
 │   └── tests/                 # Full pytest harness (100% empirical pass rate)
 │
 ├── domain_laboratories/       # Specialized multi-disciplinary testbenches
 │   ├── aerospace_gnc/         # 15-state ES-EKF, ULA MVDR beamforming, Space Shuttle TMR FDIR, Z3 proofs
+│   ├── cyber_forensic_crypto/ # Hardened RISC-V gate model, tamper-evident Merkle blackbox, BFT consensus
 │   ├── frugal_mechanics/      # Method of Characteristics (MOC) water-hammer, Seebeck MPPT, 2-RC ECM BMS
-│   ├── advanced_quantum_scada/# Tokamak MHD equilibrium, QKD satellite links, Modbus deep packet firewalls
-│   ├── isomorphic_hybrid/     # Bidirectional state-space physics bridge, PQC Ring-LWE consensus
+│   ├── advanced_quantum_scada/# Tokamak MHD equilibrium, QKD satellite links, Modbus/DNP3 DPI firewalls
+│   ├── isomorphic_hybrid/     # Bidirectional state-space physics bridge, silicon DPA/CPA side-channel guard
 │   ├── acoustic_metamaterials/# Westervelt non-linear acoustics, lithospheric rate-state friction
 │   ├── c_baremetal_quant/     # Zero-allocation C limit order book and lock-free ringbuffers
 │   └── ...                    # Autonomous drone meshes, extremophile genetics, OSINT DAGs
@@ -43,20 +44,101 @@ Most real-world engineering failures occur at the boundaries between disciplines
 
 ---
 
-## 🔬 Featured Frontier Hybrid Engines
+## 🔬 Complete Frontier Hybrid Engines Catalog (Categorized by Domain)
 
-| Engine | Domains Unified | Core Physical / Mathematical Mechanism |
+### 1. 🛡️ Post-Quantum Cryptography, ICS/SCADA & Cyber Defense
+| Engine | Title | Core Physical / Mathematical Mechanism |
 | :--- | :--- | :--- |
-| **Engine 01** | Immunology + Swarm UAVs | Affinity maturation clonal selection for Byzantine GPS-denied rendezvous. |
-| **Engine 04** | PQC + SCADA Power Grids | Schnorr-Pedersen NIZK telemetry proofs with ring-LWE lattice key encapsulation. |
-| **Engine 10** | Astrophysics + Sonar | Matched filter gravitational-wave chirp extraction for low-SNR subsea acoustic steganography. |
-| **Engine 18** | Relativistic Plasma + Opt | 1D PIC plasma wakefield acceleration with laser ponderomotive envelope solvers. |
-| **Engine 26** | Magnetohydrodynamics | Hartmann flow molten-salt electromagnetic pump using Navier-Stokes Lorentz coupling. |
-| **Engine 51** | Quantum Radar + Chirp | Hyperbolic chirp matched-filter radar resolving targets at negative SNR ($SNR = -15\text{ dB}$). |
-| **Engine 57** | Geothermal + Squeezed DAS| Quantum-squeezed Distributed Acoustic Sensing for micro-fracture localization. |
-| **Engine 60** | Astrocytic Tripartite SNN | Astrocyte calcium dynamics modulating spike-timing-dependent plasticity (STDP). |
-| **Engine 64** | Non-Hermitian Physics + Med | Exceptional Point (EP) second-order eigenvalue splitting for ultra-early sepsis detection. |
-| **Engine 65** | Trajectory + Extreme Value | Fréchet EVT tail-risk trajectory optimizer navigating non-Gaussian EW RF jammers. |
+| **Engine 04** | PQ-ZK SCADA Self-Healing Sentry | NIST ML-KEM Ring-LWE lattice key encapsulation with Schnorr-Pedersen NIZK telemetry proofs for autonomous ICS PLC quarantine. |
+| **Engine 09** | Topological Braid Crypto Ledger | Non-abelian Artin braid group word reduction solving the Conjugacy Search Problem (CSP) for quantum-resistant consensus. |
+| **Engine 10** | Gravitational Wave Steganographic Sonar | Matched-filter chirp extraction for covert, low-SNR subsea acoustic steganography. |
+| **Engine 66** | Adversarial Active Inference SCADA Sentinel | Variational Free Energy anomaly gating detecting stealth False Data Injection Attacks (FDIA) with autonomous state rollback. |
+
+### 2. 🚀 Aerospace, GNC & Electronic Warfare (EW)
+| Engine | Title | Core Physical / Mathematical Mechanism |
+| :--- | :--- | :--- |
+| **Engine 01** | Clonal Selection UAV Swarm | Affinity maturation clonal selection for Byzantine GPS-denied rendezvous. |
+| **Engine 06** | Hypersonic Plasma Sheath RL | Reinforcement learning aerodynamic deflection compensating for blackout ionization sheath. |
+| **Engine 14** | Geodesic Solar Sail Navigator | Photon-pressure geodesic transfer orbit optimizer across non-uniform solar radiation fields. |
+| **Engine 17** | Memristive HD Computing SAR | Hyperdimensional vector binding for real-time Synthetic Aperture Radar speckle denoising. |
+| **Engine 32** | Biomimetic Echolocation LiDAR Fusion | Micro-Doppler bat echolocation acoustic chirps fused with LiDAR pointclouds. |
+| **Engine 48** | Micro-Plasma CubeSat Thruster | RF-excited magnetized plasma plume thrust and specific impulse solver. |
+| **Engine 51** | Exonuclease DNA LLM Poison Filter | Proofreading 3'-5' exonuclease error correction applied to token stream poisoning filtration. |
+| **Engine 52** | Relativistic Squeezed Radar InSAR | Quantum-squeezed entangled microwave interferometry for sub-wavelength topographic mapping. |
+| **Engine 65** | Fréchet EVT Anti-Jamming Trajectory | Extreme Value Theory heavy-tailed risk optimizer navigating non-Gaussian EW RF jamming fields. |
+
+### 3. 🧠 Neuromorphic Computing, SNNs & Cognitive AI
+| Engine | Title | Core Physical / Mathematical Mechanism |
+| :--- | :--- | :--- |
+| **Engine 02** | Neuromorphic Jump-Diffusion | Leaky Integrate-and-Fire SNN modeling Poisson jump-diffusion in high-frequency state estimation. |
+| **Engine 11** | Epigenetic Neuromorphic Robotics | Dynamic DNA methylation weight masking for continual motor learning without catastrophic forgetting. |
+| **Engine 22** | Olfactory Glomerular Gas Tracker | Insect antennal lobe glomerular lateral inhibition SNN for turbulent chemical plume tracking. |
+| **Engine 25** | Synaptic Pruning AST Compiler | Developmental synaptic pruning applied to abstract syntax tree Dead Code Elimination (DCE). |
+| **Engine 34** | CNT Synaptic Crossbar Accelerator | Carbon nanotube memristive crossbar solving vector-matrix multiplications in-memory. |
+| **Engine 43** | Spintronic MRAM SNN Crossbar | Spin-Transfer Torque (STT-MRAM) stochastic switching dynamics for spiking neural layers. |
+| **Engine 49** | Neuromorphic Sound Localizer | Interaural Time Difference (ITD) Jeffress coincidence detector with axonal delay lines. |
+| **Engine 59** | Active Inference Pain Interceptor | Somatosensory nociceptive predictive coding minimizing variational free energy to preempt phantom limb pain. |
+| **Engine 60** | Astrocytic Tripartite SNN | Astrocyte intracellular $Ca^{2+}$ glial feedback modulating spike-timing-dependent plasticity (STDP). |
+
+### 4. ⚛️ Quantum Mechanics, Photonics & Metamaterials
+| Engine | Title | Core Physical / Mathematical Mechanism |
+| :--- | :--- | :--- |
+| **Engine 03** | Quantum Annealing Haptics | Transverse-field Ising Hamiltonian mapped to real-time bilateral teleoperation impedance matching. |
+| **Engine 05** | Acoustic Metamaterial Organ-Chip | Phononic crystal acoustic bandgap resonator generating acoustic tweezers in microfluidic channels. |
+| **Engine 07** | Photonic DNA Origami Router | DNA-scaffolded dye resonance energy transfer (FRET) for all-optical logic routing. |
+| **Engine 16** | Superconducting Flux Qubit Controller | Josephson junction Hamiltonian state control on low-latency bare-metal FPGA registers. |
+| **Engine 19** | Quantum Dot Perovskite Harvester | Förster resonance energy transfer (FRET) exciton dynamics in tandem perovskite photovoltaic stacks. |
+| **Engine 21** | Metamaterial Cloak RF Harvester | Coordinate-transformation electromagnetic cloak integrating simultaneous RF rectification diodes. |
+| **Engine 29** | Dual-Beam Optical Tweezer Sorter | Optical gradient force and dielectrophoretic (DEP) sorting of single micro-particles. |
+| **Engine 33** | Quantum Absorption Refrigerator | Lindblad master equation solver for three-level quantum thermal refrigeration cycles. |
+| **Engine 41** | Quantum Cascade Laser Spectrometer | Mid-IR cavity ring-down absorption spectroscopy for trace gas isotopic ratio extraction. |
+| **Engine 44** | Holographic Photopolymer Storage | Volume holographic storage using coupled-wave diffraction on volume Bragg gratings. |
+| **Engine 57** | Quantum-Squeezed DAS Geothermal | Squeezed-state optical distributed acoustic sensing for subterranean micro-fracture triangulation. |
+| **Engine 61** | Superconducting Fluxon Debris Sentry| Fluxon vortex pinning dynamics in type-II superconductors for kinetic momentum absorption. |
+
+### 5. 🧬 Synthetic Biology, Extremophiles & Biomimetics
+| Engine | Title | Core Physical / Mathematical Mechanism |
+| :--- | :--- | :--- |
+| **Engine 08** | Physarum Mycelial Smart Grid | Slime mold tubule resistance-conductance network optimization for fault-tolerant grid routing. |
+| **Engine 12** | CRISPR Causal Fault Localization | Synthetic guide-RNA cleavage kinetics mapped to causal DAG fault localization in microservices. |
+| **Engine 15** | Bioelectric Voltage Morphogenesis | Transepithelial resting potential gradients driving cellular regeneration and pattern formation. |
+| **Engine 20** | Chemosynthetic Hydrothermal ALU | Chemolithoautotrophic redox metabolic reaction networks executing binary arithmetic logic. |
+| **Engine 23** | Bacterial Quorum Sensing Scheduler | Autoinducer-2 concentration feedback loops for distributed traffic intersection arbitration. |
+| **Engine 45** | Extremophile RecA DNA Repair | *Deinococcus radiodurans* RecA double-strand break repair kinetics under intense gamma radiation. |
+| **Engine 50** | Morphogenetic Swarm Crystallizer | Turing reaction-diffusion morphogen morphometry coordinating autonomous robot assembly. |
+| **Engine 53** | Replicator Phage Bioremediator | Stochastic predator-prey phage-bacteria lysis kinetics in microfluidic pollutant scrubbing. |
+| **Engine 58** | Synthetic Myoglobin UUV Oxygen | Reversible oxygen-binding globin kinetics powering non-combustive subsea fuel cells. |
+| **Engine 62** | Slime Mold Urban Evacuation Sentry | Adaptive tube-diameter streaming dynamics for congestion-free emergency structural egress. |
+
+### 6. ⚡ Extreme Physics, Fluid Dynamics & Energy Systems
+| Engine | Title | Core Physical / Mathematical Mechanism |
+| :--- | :--- | :--- |
+| **Engine 13** | Thermoacoustic Stirling Cryocooler | Rott's thermoacoustic wave equations for acoustic enthalpy flux refrigeration. |
+| **Engine 18** | Relativistic PIC Plasma Wakefield | 1D particle-in-cell laser ponderomotive envelope solver for multi-GeV plasma wakefield acceleration. |
+| **Engine 24** | Ferrofluidic Bingham Damper | Non-Newtonian magnetorheological fluid yield stress modulation under seismic shear excitation. |
+| **Engine 26** | Magnetohydrodynamic Molten Salt Pump| Coupled Navier-Stokes and Maxwell-Ampere equations for conductive fluid Lorentz pumping. |
+| **Engine 27** | Liquid Crystal Elastomer Actuator | Nematogenic order parameter Frank elasticity driving opto-thermally actuated soft robotics. |
+| **Engine 28** | Turbomachinery Piezo Harvester | Coupled Euler-Bernoulli beam piezo-elastic resonance harvesting blade flutter energy. |
+| **Engine 30** | Stochastic Resonance Amplifier | Bistable Duffing potential Kramers rate switching for sub-threshold signal detection. |
+| **Engine 31** | Plasma Electrolytic Nanocoater | Micro-discharge dielectric breakdown dynamics producing ceramic nanocoatings on light alloys. |
+| **Engine 35** | 3D CA Premixed Flame Combustor | Cellular automata thermal-diffusive Kuramoto-Sivashinsky flame front propagation. |
+| **Engine 37** | Sonoluminescence Cavitation Reactor| Keller-Miksis bubble dynamics modeling acoustic cavitation picosecond plasma flashes. |
+| **Engine 38** | Magnetostrictive Terfenol-D Sonar | Non-linear Jiles-Atherton ferromagnetic hysteresis for high-power underwater transducers. |
+| **Engine 40** | MOF-801 Atmospheric Water Harvester| Langmuir adsorption isotherm and heat transfer kinetics for low-humidity water harvesting. |
+| **Engine 46** | Radioisotope Seebeck Space RTG | Transient thermal diffusion and Thomson effect in multijunction thermoelectric generators. |
+| **Engine 47** | Nanofluidic Memristive Osmotic Cell | Debye layer overlapping and streaming potential electrokinetics in 2D graphene nanochannels. |
+| **Engine 54** | Superconducting $sCO_2$ Datacenter Loop | Closed-loop Brayton supercritical $CO_2$ thermodynamic cycle cooling dense compute clusters. |
+| **Engine 55** | Agentic Control Barrier Function (CBF)| Quadratic programming CBF safety filter preventing flash-crash cascading liquidation loops. |
+| **Engine 56** | Circadian Endocrine Microgrid | Melatonin-cortisol diurnal hormonal rhythms modulating renewable energy storage dispatch. |
+| **Engine 63** | Stomatal Turgor Architectural HVAC | Plant guard-cell osmotic turgor pressure mechanics for zero-power thermal building ventilation. |
+
+### 7. 🫀 Biomedical Physics & Diagnostics
+| Engine | Title | Core Physical / Mathematical Mechanism |
+| :--- | :--- | :--- |
+| **Engine 36** | Optogenetic Cardiac Defibrillator | FitzHugh-Nagumo cardiac action potential suppression using light-gated Channelrhodopsin-2. |
+| **Engine 39** | Neuromuscular Prosthetic Driver | Hill-type three-element muscle tendon model with recursive closed-loop myoelectric feedback. |
+| **Engine 42** | Piezoresistive Electronic Skin | Percolation threshold conductive elastomer piezoresistive array for tactile slip detection. |
+| **Engine 64** | Non-Hermitian EP Sepsis Detector | Exceptional point (EP) second-order eigenvalue splitting for sub-picomolar systemic sepsis detection. |
 
 ---
 
@@ -76,7 +158,7 @@ Run the master empirical test harness:
 python3 verify_all.py
 ```
 
-All 65 frontier hybrid engines, domain laboratories, and continuum testbenches execute locally and verify zero runtime errors and numerical convergence.
+All 66 frontier hybrid engines, domain laboratories, and continuum testbenches execute locally and verify zero runtime errors and numerical convergence.
 
 ---
 

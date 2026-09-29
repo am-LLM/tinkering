@@ -2,7 +2,7 @@
 
 [![Tests](https://img.shields.io/badge/Test_Pass_Rate-100.0%25-brightgreen.svg?style=flat-square)](https://github.com/am-LLM/tinkering)
 [![Engines](https://img.shields.io/badge/Frontier_Engines-66_Verified-blue.svg?style=flat-square)](https://github.com/am-LLM/tinkering/tree/main/frontier_hybrids)
-[![Continuum](https://img.shields.io/badge/Course_Continuum-418_Harnesses-purple.svg?style=flat-square)](https://github.com/am-LLM/tinkering/tree/main/engineering_continuum)
+[![Continuum](https://img.shields.io/badge/Research_Continuum-418_Domain_Fields-purple.svg?style=flat-square)](https://github.com/am-LLM/tinkering/tree/main/engineering_continuum)
 [![License](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](LICENSE)
 [![Author](https://img.shields.io/badge/Architect-Ali_Malik_(am--LLM)-red.svg?style=flat-square)](https://github.com/am-LLM)
 
@@ -94,9 +94,9 @@ Every single one of the **66 Hybrid Engines** in this repository is cross-compil
 │   ├── acoustic_metamaterials/# Westervelt non-linear acoustics, lithospheric rate-state friction
 │   └── c_baremetal_quant/     # Zero-allocation C limit order book and lock-free ringbuffers
 │
-├── engineering_continuum/     # 418 Modular Domain Harnesses (Courses 001 - 418)
-│   ├── course_001_...         # Verified implementations spanning electromagnetics, RF, robotics,
-│   └── course_418_...         # nuclear point kinetics, control barrier functions, and neural ODEs
+├── engineering_continuum/     # 418 Field Investigation Harnesses (Fields 001 - 418)
+│   ├── field_001_...          # Verified implementations spanning electromagnetics, RF, robotics,
+│   └── field_418_...          # nuclear point kinetics, control barrier functions, and neural ODEs
 │
 ├── verify_all.py              # Master empirical verification test suite
 └── requirements.txt           # Minimal Python scientific dependencies (numpy, scipy, sympy, z3-solver)

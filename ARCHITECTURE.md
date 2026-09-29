@@ -33,7 +33,7 @@ yielding orders-of-magnitude higher sensitivity to minute micro-vascular inflamm
 2. **Taylor Series & Polynomial Approximations**:
    - High-frequency trigonometric and exponential calls inside micro-stepping controllers use truncated minimax polynomials to conserve CPU clock cycles on bare-metal architectures.
 3. **Sparse Matrix & Vectorized SIMD Layouts**:
-   - FDTD Yee grids (`course_391`) and finite-difference heat equations store electromagnetic/thermal fields as contiguous 1D/2D arrays, maximizing L1 cache locality and compiler auto-vectorization.
+   - FDTD Yee grids (`field_391`) and finite-difference heat equations store electromagnetic/thermal fields as contiguous 1D/2D arrays, maximizing L1 cache locality and compiler auto-vectorization.
 
 ---
 

@@ -1,10 +1,13 @@
 # ⚡ tinkering | Multi-Disciplinary Systems, AI Architecture & Empirical Engineering
 
+[![🌌 3D TOPIC STARMAP](https://img.shields.io/badge/🌌_3D_Interactive_Starmap-EXPLORE_500+_TOPICS-0284c7?style=for-the-badge&logo=three.js&logoColor=white)](https://am-LLM.github.io/tinkering/)
 [![Tests](https://img.shields.io/badge/Test_Pass_Rate-100.0%25-brightgreen.svg?style=flat-square)](https://github.com/am-LLM/tinkering)
 [![Engines](https://img.shields.io/badge/Frontier_Engines-70_Verified-blue.svg?style=flat-square)](https://github.com/am-LLM/tinkering/tree/main/frontier_hybrids)
 [![Continuum](https://img.shields.io/badge/Research_Continuum-418_Domain_Fields-purple.svg?style=flat-square)](https://github.com/am-LLM/tinkering/tree/main/engineering_continuum)
 [![License](https://img.shields.io/badge/License-MIT-black.svg?style=flat-square)](LICENSE)
 [![Author](https://img.shields.io/badge/Architect-Ali_Malik_(am--LLM)-red.svg?style=flat-square)](https://github.com/am-LLM)
+
+> 🚀 **[Click Here to Launch the 3D Interactive Topic Starmap](https://am-LLM.github.io/tinkering/)** — *Explore all 70 Frontier Engines, Domain Labs, and 418 Continuum Fields in an interactive 3D WebGL universe with 1-click warp navigation.*
 
 > **"Most engineering and business failures occur at the boundaries between disciplines. When complex problems are forced into single-domain silos, solutions become compute-bloated, financially unsustainable, and operationally fragile."**
 

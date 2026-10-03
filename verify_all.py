@@ -42,7 +42,7 @@ def main():
     hybrids_dir = os.path.join(REPO_ROOT, "frontier_hybrids")
     if os.path.exists(hybrids_dir):
         env = {"PYTHONPATH": hybrids_dir}
-        ok = run_suite("Frontier Cross-Domain Hybrid Engines (1-65)", [
+        ok = run_suite("Frontier Cross-Domain Hybrid Engines (1-70)", [
             sys.executable, "-m", "pytest", "-p", "no:recording", "-q", os.path.join(hybrids_dir, "tests")
         ], env=env)
         results.append(("Frontier Hybrids", ok))

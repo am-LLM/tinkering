@@ -1,6 +1,6 @@
 """
 Frontier Cross-Domain Hybrid Engineering Engines Suite.
-A collection of 50 novel, fused, cross-domain Frankenstein engineering engines.
+A collection of 70 novel, fused, cross-domain Frankenstein engineering engines.
 """
 
 from .engine_01_drone_tcell_consensus import DroneTCellConsensusEngine
@@ -53,6 +53,26 @@ from .engine_47_nanofluidic_memristor_osmotic_power import NanofluidicOsmoticPow
 from .engine_48_micro_plasma_thruster_cubesat import HeliconPlasmaThrusterEngine
 from .engine_49_neuromorphic_auditory_sound_localizer import JeffressSoundLocalizerEngine
 from .engine_50_synthetic_morphogenetic_swarm_crystallizer import MorphogeneticSwarmCrystallizerEngine
+from .engine_51_dna_repair_llm_poison_filter import DNARepairAttentionPoisonFilter
+from .engine_52_relativistic_quantum_radar_insar import RelativisticQuantumInSARNav
+from .engine_53_replicator_phage_microfluidics import PhageEvolutionaryGameReactor
+from .engine_54_superconducting_sco2_datacenter_power import SuperconductingBraytonDataCenterPower
+from .engine_55_agentic_cbf_market_circuit_breaker import AgenticMarketCircuitBreaker
+from .engine_56_circadian_endocrine_microgrid import CircadianMicrogridManager
+from .engine_57_quantum_squeezed_das_geothermal import QuantumSqueezedGeothermalDAS
+from .engine_58_synthetic_myoglobin_uuv_oxygen import SyntheticMyoglobinUUVPower
+from .engine_59_active_inference_pain_interceptor import ActiveInferencePainInterceptor
+from .engine_60_astrocytic_calcium_lifelong_snn import AstrocyticLifelongSNN
+from .engine_61_superconducting_fluxon_space_debris import SuperconductingSpaceDebrisTrapper
+from .engine_62_slime_mold_evacuation_routing import PhysarumEvacuationRouter
+from .engine_63_stomatal_turgor_zero_power_hvac import StomatalHydrogelBuildingSkin
+from .engine_64_non_hermitian_ep_sepsis_detector import ExceptionalPointSepsisDetector
+from .engine_65_frechet_evt_anti_jam_trajectory import FrechetEWTrajectoryPlanner
+from .engine_66_adversarial_active_inference_scada_sentinel import ActiveInferenceScadaSentinel
+from .engine_67_cognitron_slm_thought_engine import CognitronThoughtEngine
+from .engine_68_adversarial_ai_guardrail_jailbreak_defense import AdversarialGuardrailJailbreakEngine
+from .engine_69_assistive_bci_special_needs_neural_bridge import AssistiveBCINeuralBridgeEngine
+from .engine_70_interspecies_mammalian_rodent_communication import InterspeciesMammalianRodentCommEngine
 
 __all__ = [
     "DroneTCellConsensusEngine",
@@ -104,5 +124,25 @@ __all__ = [
     "NanofluidicOsmoticPowerEngine",
     "HeliconPlasmaThrusterEngine",
     "JeffressSoundLocalizerEngine",
-    "MorphogeneticSwarmCrystallizerEngine"
+    "MorphogeneticSwarmCrystallizerEngine",
+    "DNARepairAttentionPoisonFilter",
+    "RelativisticQuantumInSARNav",
+    "PhageEvolutionaryGameReactor",
+    "SuperconductingBraytonDataCenterPower",
+    "AgenticMarketCircuitBreaker",
+    "CircadianMicrogridManager",
+    "QuantumSqueezedGeothermalDAS",
+    "SyntheticMyoglobinUUVPower",
+    "ActiveInferencePainInterceptor",
+    "AstrocyticLifelongSNN",
+    "SuperconductingSpaceDebrisTrapper",
+    "PhysarumEvacuationRouter",
+    "StomatalHydrogelBuildingSkin",
+    "ExceptionalPointSepsisDetector",
+    "FrechetEWTrajectoryPlanner",
+    "ActiveInferenceScadaSentinel",
+    "CognitronThoughtEngine",
+    "AdversarialGuardrailJailbreakEngine",
+    "AssistiveBCINeuralBridgeEngine",
+    "InterspeciesMammalianRodentCommEngine",
 ]
